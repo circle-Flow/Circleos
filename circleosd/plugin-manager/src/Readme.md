@@ -32,7 +32,8 @@ plugin-manager/
 ```bash
 cd plugin-manager
 cargo build --release
-Run
+Run:
+
 bash
 
 cargo run --release
@@ -102,3 +103,8 @@ Implement a proper Wasm canonical ABI or WASI-based messaging for richer interac
 Maintain plugin metadata and state in persistent storage.
 
 Provide versioning, capability declarations, and signing for plugin authenticity.
+
+
+
+---
+
