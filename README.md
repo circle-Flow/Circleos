@@ -255,19 +255,8 @@ See LICENSE
 
 Built with 🦀 Rust, ✨ Tokio, 🧩 Serde, and ❤️ by open-source contributors.
 CircleOSD is a sandbox for innovation — not a replacement OS, but a vision for modular computing.
-[BOOT] Powering on CPU cores...
-[OK] Powering on CPU cores...
-[BOOT] Loading kernel services...
-[OK] Loading kernel services...
-[SYSTEM] RPC socket ready on var/run/circleosd.sock
-[SYSTEM] Boot sequence completed.
-========================================
 
-📸 Screenshot :
-====================================================
+========================================
 🌀  CircleOSD Core Daemon Boot Sequence v0.2.0
 ====================================================
 
-🟢 System ready for user login
-Use `circlectl user login` to authenticate.
-====================================================
