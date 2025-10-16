@@ -91,8 +91,10 @@ circlectl user login
 
 or greeter (text UI)
 
-🧩 Components Overview
-Component	Description
+🧩 Components Overview:
+
+Component	Description:
+
 Core Daemon	The main orchestrator — listens for commands and routes RPC calls
 Auth Service	Provides login/register APIs using SQLite + Argon2
 Service Registry	Keeps track of all microservices and restarts them if needed
@@ -101,7 +103,9 @@ circlectl	A powerful CLI tool to manage CircleOSD
 Greeter	Optional TUI for user login at boot
 Apps	Example applications (games, engines, demos)
 Plugins	Extensible feature modules, loaded on demand
+
 🧰 Installation & Build
+
 1️⃣ Prerequisites
 
 Rust (>=1.75)
@@ -112,11 +116,13 @@ Linux or macOS (Unix socket support)
 
 Optional: sqlite3, wasmtime (for WASM plugins)
 
-2️⃣ Clone the Repo
+2️⃣ Clone the Repo:
+
 git clone https://github.com/yourusername/circleosd.git
 cd circleosd
 
-3️⃣ Build Everything
+3️⃣ Build Everything:
+
 cargo build --workspace
 
 
@@ -249,18 +255,19 @@ See LICENSE
 
 Built with 🦀 Rust, ✨ Tokio, 🧩 Serde, and ❤️ by open-source contributors.
 CircleOSD is a sandbox for innovation — not a replacement OS, but a vision for modular computing.
-
-📸 Screenshot (Example)
-====================================================
-🌀  CircleOSD Core Daemon Boot Sequence v0.2.0
-====================================================
 [BOOT] Powering on CPU cores...
 [OK] Powering on CPU cores...
 [BOOT] Loading kernel services...
 [OK] Loading kernel services...
 [SYSTEM] RPC socket ready on var/run/circleosd.sock
 [SYSTEM] Boot sequence completed.
+========================================
+
+📸 Screenshot :
 ====================================================
+🌀  CircleOSD Core Daemon Boot Sequence v0.2.0
+====================================================
+
 🟢 System ready for user login
 Use `circlectl user login` to authenticate.
 ====================================================
