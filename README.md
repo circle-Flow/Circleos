@@ -28,9 +28,7 @@ circleosd/
 
 │
 ├── core-daemon/        # Central orchestrator (PID 1 of CircleOS)
-
 ├── auth-service/       # Handles users, login, sessions
-
 ├── service-registry/   # Tracks and supervises all running services
 
 ├── plugin-manager/     # Loads and isolates .so/.dll/.wasm plugins
