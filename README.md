@@ -25,18 +25,30 @@ It’s both a learning OS project and a real, extensible service platform.
 
 🧱 Architecture
 circleosd/
+
 │
 ├── core-daemon/        # Central orchestrator (PID 1 of CircleOS)
+
 ├── auth-service/       # Handles users, login, sessions
+
 ├── service-registry/   # Tracks and supervises all running services
+
 ├── plugin-manager/     # Loads and isolates .so/.dll/.wasm plugins
+
 ├── circlectl/          # CLI interface to interact with CircleOSD
+
 ├── greeter/            # Optional TUI/CLI login screen
+
 ├── plugins/            # Example and external plugins
+
 ├── apps/               # Optional apps and game demos
+
 ├── etc/                # System configuration files
+
 ├── var/                # Runtime data (logs, sockets, sessions)
+
 ├── build/              # Compiled binaries
+
 └── scripts/            # Helper scripts (build/run/install)
 
 
