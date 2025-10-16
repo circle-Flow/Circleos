@@ -1,0 +1,2 @@
+//This is the primary IPC socket used by core-daemon for JSON-RPC communication.
+//It is automatically created at runtime — you don’t need to edit it manually.
