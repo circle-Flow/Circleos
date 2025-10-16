@@ -16,7 +16,24 @@ It provides:
 
 CircleOSD is structured as a collection of cooperating Rust crates, with the `core-daemon` at the center.
 
+circleosd/
 
+
+├── core-daemon/ # Main daemon (registry, auth, plugin, RPC)
+
+├── auth-service/ # (planned) persistent auth microservice
+
+├── service-registry/ # (planned) standalone registry
+
+├── plugin-manager/ # (planned) advanced plugin sandbox/loader
+
+├── circlectl/ # CLI tool for interacting with the daemon
+
+├── greeter/ # (optional) login UI or TUI frontend
+
+├── plugins/ # Plugins (.so / .wasm) extend OS features
+
+└── etc/ # Configuration files
 ### Core responsibilities
 
 | Component | Description |
