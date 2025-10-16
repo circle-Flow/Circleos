@@ -1,0 +1,13 @@
+You don’t need to write this manually — it will be generated automatically when you first run:
+
+cargo build
+
+
+You’ll see:
+
+Updating crates.io index
+Compiling ...
+Writing lock file
+
+
+Then you’ll have a Cargo.lock in your root automatically.
