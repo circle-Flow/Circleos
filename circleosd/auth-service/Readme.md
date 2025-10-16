@@ -20,13 +20,21 @@ It uses **SQLite** for persistent user storage and **Argon2** for password hashi
 ## 🧱 Architecture Overview
 
 auth-service/
+
 ├── src/
+
 │ ├── main.rs # Entry point — starts the RPC server
+
 │ ├── db.rs # SQLite database access (rusqlite / sqlx)
+
 │ ├── hash.rs # Argon2 password hashing helpers
+
 │ ├── api.rs # JSON-RPC API endpoints (login, register, validate)
+
 │ └── session.rs # Session token management (in-memory)
+
 └── Cargo.toml
+
 The service can run independently or under CircleOSD’s `service-registry` process supervisor.
 
 ---
