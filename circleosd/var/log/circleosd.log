@@ -1,0 +1,5 @@
+[INFO] CircleOSD v0.1.0 starting...
+[INFO] Service Registry initialized.
+[INFO] Auth Service listening on /var/run/auth-service.sock
+[INFO] Plugin Manager loaded 1 plugin(s).
+[INFO] System ready for user login.
