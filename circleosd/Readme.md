@@ -127,10 +127,10 @@ Inspired by Linux systemd, Bevy’s plugin architecture, and Windows service con
 
 ## 🪪 `LICENSE` (MIT License)
 
-```text
+
 MIT License
 
-Copyright (c) 2025 Your Name
+Copyright (c) 2025 CircleOS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
@@ -183,10 +183,15 @@ circlectl/	Command-line tool for users/admins — control services, manage plugi
 🎨 Interface & User Experience
 Folder	Role
 greeter/	Optional GUI/TUI login/greeter (like GNOME Display Manager or LightDM).
+
 plugins/	Extensible plugins for system utilities or extra features.
+
 apps/	Where your user applications and games live (built with Rust engines like Bevy).
+
 ⚙️ Config & Runtime
 Folder	Description
 etc/	System configuration — loaded by core-daemon during boot.
+
 var/	Runtime data, sockets, session files, logs.
+
 scripts/	Build and install helper scripts.
