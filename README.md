@@ -254,7 +254,7 @@ See LICENSE
 ❤️ Credits
 
 Built with 🦀 Rust, ✨ Tokio, 🧩 Serde, and ❤️ by open-source contributors.
-CircleOSD is a sandbox for innovation — not a replacement OS, but a vision for modular computing.
+CircleOSD is a sandbox for innovation — a replacement OS, with a vision for modular computing.
 
 ========================================
 🌀  CircleOSD Core Daemon Boot Sequence v0.2.0
