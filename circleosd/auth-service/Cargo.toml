@@ -1,1 +1,22 @@
 
+[package]
+name = "auth-service"
+version = "0.1.0"
+edition = "2021"
+authors = ["You <you@example.com>"]
+description = "CircleOSD authentication microservice (SQLite + Argon2 + Unix-socket RPC)"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "1.0"
+rusqlite = { version = "0.29", features = ["bundled"] } # bundled for convenience
+argon2 = "0.4"
+password-hash = "0.3"
+rand_core = "0.6"
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
