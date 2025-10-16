@@ -10,8 +10,6 @@ This README includes:
 
 🧩 Best practices for service supervision
 
-It’s structured so GitHub renders it perfectly (markdown-safe tree view, consistent code blocks, headings, and emojis).
-
 📄 service-registry/README.md
 # 🧭 CircleOSD Service Registry
 
@@ -27,19 +25,32 @@ It acts like a lightweight **systemd** or **launchd** for CircleOSD microservice
 
 
 circleosd/
+
 ├── service-registry/ # Central process supervisor
+
 │ ├── src/
+
 │ │ ├── main.rs # Boot entrypoint — starts registry daemon
+
 │ │ ├── registry.rs # Core registry logic and APIs
+
 │ │ ├── service.rs # Service definitions, state tracking
+
 │ │ ├── process.rs # Process spawn/restart/monitor logic
+
 │ │ └── health.rs # Health pings, service liveness checks
+
 │ ├── Cargo.toml
+
 │ └── README.md
+
 │
 ├── auth-service/ # Auth microservice (user login)
+
 ├── plugin-manager/ # Dynamic plugin loader
+
 ├── core-daemon/ # Core orchestrator and IPC bridge
+
 └── circlectl/ # CLI management tool
 
 
